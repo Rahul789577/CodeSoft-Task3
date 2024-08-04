@@ -1,0 +1,58 @@
+.product-card {
+  width: 50%;
+  height: 50%;
+  margin: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  .product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #254d4d;
+}
+  .product-card img{
+  margin-inline: auto;
+  max-width: 300px;
+    
+  }
+ 
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #black;
+  margin-bottom: 5px;
+}
+.buynow_bt {
+
+    width: 170px;
+
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.buynow_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color:#d4d4d4 ;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buynow_bt a:hover {
+    background-color: #254d4d;
+    color: #ffffff;
+}
